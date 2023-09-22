@@ -23,7 +23,24 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+ul{
+  list-style-type: none;
+  white-space: nowrap;
+  justify-content: center;
+  text-align: center;
+}
+li{
+  font-size: 20px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  color:red;
+  margin: 20px;
+  display: inline-block;
+}
+.navbar{
+  height:2cm;
+  background-color: #dc3545;
+}
 .loginButton{
     right:20px;
 }
