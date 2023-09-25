@@ -16,7 +16,7 @@ body{
     border: 1px solid rgba(209, 213, 219, 0.3);
 }
 .bg {
-    background-image: url("./components/john-lee-oMneOBYhJxY-unsplash.jpg");
+    background-image: url("./img/john-lee-oMneOBYhJxY-unsplash.jpg");
     height: auto;
     min-height:100vh;
     background-position: center;
@@ -53,7 +53,7 @@ li{
         top:200px;
     }
     .bg {
-        background-image: url("./components/john-lee-oMneOBYhJxY-unsplash.jpg");
+        background-image: url("./img/john-lee-oMneOBYhJxY-unsplash.jpg");
         height: auto;
         min-height:100vh;
         background-position: center;
