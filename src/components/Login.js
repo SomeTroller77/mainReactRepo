@@ -1,6 +1,6 @@
 import "../App.css";
-import microsoft from "./pngwing.com.png";
-import background from "./john-lee-oMneOBYhJxY-unsplash.jpg";
+import microsoft from "../img/pngwing.com.png";
+import background from "../img/john-lee-oMneOBYhJxY-unsplash.jpg";
 
 export default function Login(){
     return(

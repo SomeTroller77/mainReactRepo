@@ -16,14 +16,52 @@ body{
     border: 1px solid rgba(209, 213, 219, 0.3);
 }
 .bg {
-    background-image: url("./components/john-lee-oMneOBYhJxY-unsplash.jpg");
+    background-image: url("./img/john-lee-oMneOBYhJxY-unsplash.jpg");
     height: auto;
     min-height:100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+nav ul{
+  list-style-type: none;
+  white-space: nowrap;
+  justify-content: center;
+  text-align: center;
+}
+table{
+    border: 1px solid;
+}
+.tborder{
+    border:1px solid;
+}
+#popupbox{
+    position: relative;
+    display:"block";
+    width: 50%;
+    height:15cm;
+    left: 300px;
+    color:"red";
+    background-color:"red";
+}
+#modal{
+    display:"block";    
+    background-color: rgb(0,0,0);
+    opacity: 0.5;
+    height: 100%;
+}
+nav li{
+  font-size: 20px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  color:red;
+  margin: 20px;
+  display: inline-block;
+}
+.navbar{
+  height:2cm;
+  background-color: #dc3545;
+}
 .loginButton{
     right:20px;
 }
@@ -36,7 +74,7 @@ body{
         top:200px;
     }
     .bg {
-        background-image: url("./components/john-lee-oMneOBYhJxY-unsplash.jpg");
+        background-image: url("./img/john-lee-oMneOBYhJxY-unsplash.jpg");
         height: auto;
         min-height:100vh;
         background-position: center;
