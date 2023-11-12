@@ -7,6 +7,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import NotFound from './components/NotFound';
 import Home from './components/Home';
 import Login from './components/Login';
+import Brands from './components/Brands';
 
 export default function Index(){
   return(
@@ -16,6 +17,7 @@ export default function Index(){
           <Route path="/" element={<App/>}>
             <Route index element={<Home/>} />
             <Route path="login" element={<Login/>}/>
+            <Route path="brands" element={<Brands/>}/>
             <Route path="*" element={<NotFound/>}/>
           </Route>
         </Routes>

@@ -12,6 +12,7 @@ function App() {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/other">other</Link></li>
             <li><Link to='/login'>login</Link></li>
+            <li><Link to='/brands'>Brands</Link></li>
           </ul>
         </nav>
       </div>
